@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+
+#searchBtn{
+    background-color: grey;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.255);
+    cursor: pointer;
+}
