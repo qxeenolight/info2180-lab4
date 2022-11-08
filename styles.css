@@ -1,12 +1,78 @@
 body{
-    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ff7e7e61;
+    margin: 0;
 }
 
-#searchBtn{
-    background-color: grey;
-    border: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.255);
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 30px;
+}
+
+header .container{
+    background-image: url(marvel.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 5px;
+    height: 250px;
+}
+
+main{
+    margin-top: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.searchBtn {
+    padding: 10px;
+    background-color: #C72523;
+    border-radius: 5px;
+    border: transparent;
+    color: #eaf5f8;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
     cursor: pointer;
 }
+
+header .container{
+    background-color: #4D8AB5;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.255);
+}
+
+#hero{
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 560px;
+    border: none;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.255);
+}
+
+input{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 150px;
+    margin: 5px;
+ }
+
+.form-group{
+    display: flex;
+}
+
+
+
